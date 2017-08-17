@@ -26,11 +26,11 @@ X : Variables explicatives
 
 Testez sur les 2 exemples mis à disposition ici. Un exemple pour la régression simple (cigarette.csv) et un exemple pour la régression multiple (resistanceMat.csv).
 
-1 - La commande pour l'entraînement est : * **python train.py resistanceMat.csv e**
+1 - La commande pour l'entraînement est : **python train.py resistanceMat.csv e**
 
 Un fichier est généré (pred.prd). Ce fichier contient les coefficients pour la prédiction (seulement si les tests ce sont bien déroulés).
 
-2 - La commande pour la prédiction est : * **python prediction.py**
+2 - La commande pour la prédiction est : **python prediction.py**
 
 Vous devez saisir les chiffres qu'on vous demande. Par exemple pour le fichier (resistanceMat.csv) :
 ```
