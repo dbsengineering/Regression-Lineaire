@@ -41,6 +41,11 @@ Entrez DensiteX2 :
 >>>>> Estimation de : ResistanceY : 30.2665950099
 ```
 
+### Amélioration à venir
+
+- Restructuration du script (train.py)
+- l'option "e" et "p" (echantillon et population). Pour le moment le script fonctionne pour des échantillons.
+
 ## Auteur
 
 * **Jérémy Cavron** - GitHub : [DBSEngineering](https://github.com/dbsengineering).
