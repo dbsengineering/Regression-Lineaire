@@ -6,9 +6,9 @@ Script python de régression linéaire simple et multiple à partir d'un fichier
 
 La régression se passe en 2 temps :
 
--  "entraînement" (train.py) : permet de générer un modèle, et d'en déduire si celui-ci est correct pour la prédiction.
+-  "entraînement" (train.py) : Permet de générer un modèle (en interne du programme), et d'en déduire si celui-ci est correct pour la prédiction. Ensuite, si le modèle est correcte, le script génère un fichier où se trouve les coefficients de prédictions.
 
--  "prédiction" (prediction.py) : permet de prédire une valeur à expliquer.
+-  "prédiction" (prediction.py) : Permet de prédire une valeur à expliquer.
 
 ### Prérequis
 
