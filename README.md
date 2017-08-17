@@ -6,9 +6,9 @@ Script python de régression linéaire simple et multiple à partir d'un fichier
 
 La régression se passe en 2 temps :
 
-- 1. "entraînement" (train.py) : permet de générer un modèle, et d'en déduire si celui-ci est correct pour la prédiction.
+-  "entraînement" (train.py) : permet de générer un modèle, et d'en déduire si celui-ci est correct pour la prédiction.
 
-- 2. "prédiction" (prediction.py) : permet de prédire une valeur à expliquer.
+-  "prédiction" (prediction.py) : permet de prédire une valeur à expliquer.
 
 ### Prérequis
 
@@ -33,14 +33,16 @@ Un fichier est généré (pred.prd). Ce fichier contient les coefficients pour l
 2 - La commande pour la prédiction est : python prediction.py
 
 Vous devez saisir les chiffres qu'on vous demande. Par exemple pour le fichier (resistanceMat.csv) :
+```
 Entrez EpaisseurX1 :
 3.5
 Entrez DensiteX2 :
 3.9
 >>>>> Estimation de : ResistanceY : 30.2665950099
+```
 
 ## Auteur
 
-* **Jérémy Cavron** - [DBSEngineering](https://github.com/dbsengineering).
+* **Jérémy Cavron** - GitHub : [DBSEngineering](https://github.com/dbsengineering).
 
 Voir aussi [portfolio](http://www.dbs.bzh/portfolio).
