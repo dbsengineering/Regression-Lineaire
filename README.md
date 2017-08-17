@@ -50,4 +50,4 @@ Entrez DensiteX2 :
 
 * **Jérémy Cavron** - GitHub : [DBSEngineering](https://github.com/dbsengineering).
 
-Voir aussi [portfolio](http://www.dbs.bzh/portfolio).
+Voir aussi le [portfolio](http://www.dbs.bzh/portfolio) de Jérémy Cavron.
