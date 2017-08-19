@@ -2,13 +2,14 @@
 
 #########################################################################
 #                                                                       #
-#                           main.py                                     #
+#                           prediction.py                               #
 #                                                                       #
 #           Test de régression simple ou multiple                       #
+#           Prédiction                                                  #
 #                                                                       #
 #           Auteur : ................. Cavron Jérémy                    #
 #           Date de création : ....... 17/08/2017                       #
-#           Date de modification : ... 17/08/2017                       #
+#           Date de modification : ... 19/08/2017                       #
 #                                                                       #
 #           Portfolio : www.dbs.bzh/portfolio                           #
 #########################################################################
@@ -74,7 +75,7 @@ def numbereval(x):
     elif re.match(r"^[+-]?(([0-9]+[eE][+-]?[0-9]+)|([0-9]+\.[0-9]*([eE][+-]?[0-9]+)?)|(\.[0-9]+([eE][+-]?[0-9]+)?))$", x):
         return float(x)
     else:
-        return False
+        return "False" #Return False en caractères brutes car problème avec le chiffre 0
 
 # Procédure de traitement des données
 def traitement(fichier):
@@ -83,7 +84,7 @@ def traitement(fichier):
     i = 1
     while(len(lstNb) != len(yt)-1):
         x = numbereval(raw_input("Entrez " + str(yt[i][0]) + " : \n").strip())
-        if x:
+        if x != "False":
             lstNb.append(float(x))
             i +=1
     predic = float(yt[0][1].replace("\n", ""))
